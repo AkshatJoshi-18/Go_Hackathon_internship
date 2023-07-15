@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>git Commands</title>
+</head>
+<body>
+    <h1>Git Commands:</h1>
+   
+    <ol style="font-size: x-large ;">
+        
+        <!-- 1 -->
+        <li>
+            Git --Version
+            <ul>
+                <li>
+                    Check your git is properly installed or not by using and also check your git version
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/yes.png">
+                </li>
+
+            </ul>
+        </li>
+        
+        <br>
+        <br>
+        <!-- 2 -->
+        <li>
+            Git config --list
+            <ul>
+                <li>
+                    Check your user config in Git Bash by using command
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/gg.png">
+                </li>
+
+            </ul>
+        </li>
+        
+        <br>
+        <br>
+        <!-- 3 -->
+        <li>
+            git config --global user.name “username”
+            <br>
+            git config --global user.email “useremail”
+            <ul>
+                <li>
+                     If there are no user then add by using command
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/_internship/task_15-07-23/images/Screenshot from 2023-07-16 00-11-33.png">
+                </li>
+
+            </ul>
+        
+        <br>
+        <br>
+        <!-- 4 -->
+        <li>
+            git config --unset --global user.name "username"
+            <br>
+            git config --unset --global user.email "useremail"
+            <ul>
+                <li>
+                    If you want to remove any user from your git then use command
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/_internship/task_15-07-23/images/_internship/task_15-07-23/images/_internship/task_15-07-23/images/Screenshot from 2023-07-16 00-16-44.png">
+                </li>
+
+            </ul>
+            
+        <br>
+        <br>
+        <!-- 5 -->
+        <li>
+            Now go to GitHub, click on your profile, choose your repository menu then click on New to create a repository
+            <ul>
+                <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/Screenshot from 2023-07-16 00-25-07.png">
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/Screenshot from 2023-07-16 00-25-22.png" >
+            </ul>
+        
+        <br>
+        <br>
+        <!-- 6 -->
+        <li>
+            git clone "repository link"
+            <ul>
+                <li>
+                    Once repository create then copy given URL and past it in your code editor like VS Code or in git bash by using following command
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/Screenshot from 2023-07-16 00-40-01.png">
+                </li>
+
+            </ul>
+        
+        <br>
+        <br>
+        <!-- 7 -->
+        <li>
+            Open this repository in VS Code or any other code editor software
+            <ul>
+                <li>
+                    In VS Code install an extension to connect your GitHub Repository
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/Screenshot from 2023-07-16 00-33-19.png">
+                </li>
+                <br>
+                <li>
+                    Click on Account icon which are showing at left bottom corner and sign in with your GitHub account
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/Screenshot from 2023-07-16 00-36-56.png">
+                </li>
+                <br>
+                <li>
+                    After completion of these task create file like index.html and write your code. Save it
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/Screenshot from 2023-07-16 00-43-03.png">
+                </li>
+            </ul>
+
+        
+        <br>
+        <br>
+        <!-- 6 -->
+        <li>
+            git add .  &&   git add "file-name"
+            <ul>
+                <li>
+                    Open terminal in vs code and use command to stage your code <br> (git add . ) for staging all code <br> (git add "file-name")  for staging particular file
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/Screenshot from 2023-07-16 03-00-01.png">
+                </li>
+
+            </ul>
+
+        <br>
+        <br>
+        <!-- 7 -->
+        <li>
+            git commit -m "commit message"
+            <ul>
+                <li>
+                    After staging, save your code in local repo by using following command
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/Screenshot from 2023-07-16 03-07-12.png">
+                </li>
+
+            </ul>
+
+        <br>
+        <br>
+        <!-- 8 -->
+        <li>
+            git push origin "branch-name"
+            <ul>
+                <li>
+                    After commit, save it on your central repo (GitHub) by using
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/Screenshot from 2023-07-16 03-11-55.png">
+                </li>
+
+            </ul>
+        
+        <br>
+        <br>
+        <!-- 9 -->
+        <li>
+            git remote add origin "URL of repository"
+            <ul>
+                <li>
+                    In above a, origin is remote access name
+                    if there is any right access permission error are showing then use
+                    following command for remote access
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/Screenshot from 2023-07-16 03-16-35.png">
+                </li>
+            </ul>
+
+        <br>
+        <br>
+        <!-- 10 -->
+        <li>
+            Now check repository, your find your code successfully store on GitHub
+            <ul>
+                <br>
+                <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/Screenshot from 2023-07-16 03-18-52.png">
+            </ul>
+
+        <br>
+        <br>
+        <!-- 11 -->
+        <li>
+            git status
+            <ul>
+                <li>
+                    After complete above step, use these command to check status of your
+                    workspace , see commit, difference etc. using following command.   *_to check workspace status_*
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/Screenshot from 2023-07-16 03-22-34.png">
+                </li>
+
+            </ul>
+
+        <br>
+        <br>
+        <!-- 12 -->
+        <li>
+            git log
+            <ul>
+                <li>
+                    to show the list of commit history
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/Screenshot from 2023-07-16 03-32-41.png">
+                </li>
+
+            </ul>
+
+        <br>
+        <br>
+        <!-- 13 -->
+        <li>
+            git log --oneline
+            <ul>
+                <li>
+                    to show the list of commit history in one line
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/Screenshot from 2023-07-16 03-34-30.png">
+                </li>
+
+            </ul>
+
+        <br>
+        <br>
+        <!-- 14 -->
+        <li>
+            git show "commit-id"
+            <ul>
+                <li>
+                    to show the details of particular commit
+                    <br>
+                    <img src="file:///home/akshat/pro_work/Go_Hackathon_internship/task_15-07-23/images/Screenshot from 2023-07-16 03-37-43.png">
+                </li>
+
+            </ul>
+
+        <br>
+        <br>
+                          
+    </ol>
+
+    <h2>Second Method to store your code in central repository : </h2>
+    <br>
+
+    <ol>
+        <li>
+            First create a folder in your system like ( Demo )
+            Open it in VS Code
+            Open terminal and run the following command
+            (git init)
+            to initialize your folder in git repository
+        </li>
+
+        <li>
+            Stage your code and commit it in local repository by using Step 8 and 9
+        </li>
+
+        <li>
+            Before push your code on GitHub, connect your remote access by using following command
+            (git remote add origin "URL of repository")
+        </li>
+
+        <li>
+            And last push your code on GitHub
+        </li>
+   
+    </ol>
+
+    <br>
+    <br>
+
+</body>
+</html>
