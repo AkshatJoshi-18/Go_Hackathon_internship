@@ -1,0 +1,19 @@
+.box > .done{
+    color: maroon;
+}
+
+.list
+{
+    color: blue;
+}
+
+.list > .done{
+    color: green;
+}
+
+h1{
+    color: green;
+}
+h2{
+    color: green;
+}
